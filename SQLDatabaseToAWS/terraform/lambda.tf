@@ -7,7 +7,7 @@ data "archive_file" "api_zip" {
   output_path = local.zip_output
   excludes = [
     ".git",
-    ".claude",
+
     "terraform",
     "tests",
     "__pycache__",
